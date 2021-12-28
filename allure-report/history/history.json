@@ -1,0 +1,157 @@
+{
+  "74ff28d84a76564c3574bfe31f78e6ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e10aebd1d1b3475",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699082743,
+        "stop" : 1640699088508,
+        "duration" : 5765
+      }
+    } ]
+  },
+  "8736268c42e220815832532f5743cb05" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc984b9275aa826f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699088508,
+        "stop" : 1640699091263,
+        "duration" : 2755
+      }
+    } ]
+  },
+  "f96668b8964a1e46e3e4a52353bae0fd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae88f51cdfb3ee90",
+      "status" : "failed",
+      "statusDetails" : "Row for currency [HUF (Hungarian Forint)] did not have a loss indicator, even though the 'Paysera amount' (28,256.07) was larger than the 'bank amount' (26,988.13); ",
+      "time" : {
+        "start" : 1640699016049,
+        "stop" : 1640699030432,
+        "duration" : 14383
+      }
+    } ]
+  },
+  "51e8c2b98da63ae93b06436aaa0aaafa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82f139b342a6e7e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699067623,
+        "stop" : 1640699075237,
+        "duration" : 7614
+      }
+    } ]
+  },
+  "dd8d7b7007adf6d3f7baf1c842f7f502" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f81ca80aafa2f74c",
+      "status" : "failed",
+      "statusDetails" : "A popup indicating that the given input was invalid was not shown when it should have been",
+      "time" : {
+        "start" : 1640699093479,
+        "stop" : 1640699108427,
+        "duration" : 14948
+      }
+    } ]
+  },
+  "242620f06022eff4b7178b36f4c9295" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94720be36fd461b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699108427,
+        "stop" : 1640699122153,
+        "duration" : 13726
+      }
+    } ]
+  },
+  "5ab61409f09de470707029b3b0d94358" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "950a1ae74329500c",
+      "status" : "failed",
+      "statusDetails" : "An unexpected 'Server error' popup was shown on screen",
+      "time" : {
+        "start" : 1640699030501,
+        "stop" : 1640699067619,
+        "duration" : 37118
+      }
+    } ]
+  },
+  "636f2b25eb820acd9c6a479f5eefd07f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9daa3e0b8d46ac5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699075237,
+        "stop" : 1640699082743,
+        "duration" : 7506
+      }
+    } ]
+  }
+}

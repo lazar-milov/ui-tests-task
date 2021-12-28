@@ -1,0 +1,225 @@
+{
+  "uid" : "4e10aebd1d1b3475",
+  "name" : "Check if the 'Sell' currency is updated when switching countries",
+  "fullName" : "org.example.tests.CurrencyExchangeHeaderTest.testCurrencyIsUpdatedIfCountryIsChanged",
+  "historyId" : "74ff28d84a76564c3574bfe31f78e6ba",
+  "time" : {
+    "start" : 1640699082743,
+    "stop" : 1640699088508,
+    "duration" : 5765
+  },
+  "description" : "Verify that an applicable currency is automatically selected in the 'Sell' currency menu when switching the country. Specifically, [RUB] should be selected when the country is switched to [Russia]",
+  "descriptionHtml" : "<p>Verify that an applicable currency is automatically selected in the 'Sell' currency menu when switching the country. Specifically, [RUB] should be selected when the country is switched to [Russia]</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify that an applicable currency is automatically selected in the 'Sell' currency menu when switching the country. Specifically, [RUB] should be selected when the country is switched to [Russia]",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to 'Online Currency Exchange' page",
+      "time" : {
+        "start" : 1640699082743,
+        "stop" : 1640699082948,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Open the language menu",
+      "time" : {
+        "start" : 1640699082981,
+        "stop" : 1640699083083,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Open the 'Country' dropdown menu",
+      "time" : {
+        "start" : 1640699083083,
+        "stop" : 1640699083130,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Select country [Lithuania]",
+      "time" : {
+        "start" : 1640699083132,
+        "stop" : 1640699086138,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "country",
+        "value" : "LITHUANIA"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check that the country was successfully changed by checking the current URL",
+      "time" : {
+        "start" : 1640699086138,
+        "stop" : 1640699086138,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Wait for the 'Exchange rate' table to be loaded",
+      "time" : {
+        "start" : 1640699086142,
+        "stop" : 1640699088355,
+        "duration" : 2213
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Scroll to the 'Exchange rate' table",
+        "time" : {
+          "start" : 1640699088155,
+          "stop" : 1640699088191,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Waiting at most [10] seconds for the exchange rate table to load",
+        "time" : {
+          "start" : 1640699088191,
+          "stop" : 1640699088191,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "timeoutInSeconds",
+        "value" : "10"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify that the correct currency was auto-selected in the 'Sell' currency menu",
+      "time" : {
+        "start" : 1640699088355,
+        "stop" : 1640699088355,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify that the 'Exchange rate' table has been updated with appropriate data",
+      "time" : {
+        "start" : 1640699088508,
+        "stop" : 1640699088508,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.tests.CurrencyExchangeHeaderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCurrencyIsUpdatedIfCountryIsChanged"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.tests.CurrencyExchangeHeaderTest"
+  }, {
+    "name" : "host",
+    "value" : "MILOVL01"
+  }, {
+    "name" : "thread",
+    "value" : "20940@MILOVL01.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e10aebd1d1b3475.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,117 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "org.example.tests.CurrencyExchangeHeaderTest",
+    "children" : [ {
+      "name" : "Check if the loss indicator is shown when applicable",
+      "uid" : "ae88f51cdfb3ee90",
+      "parentUid" : "f3a96236245b58ac9835e61e31731f57",
+      "status" : "failed",
+      "time" : {
+        "start" : 1640699016049,
+        "stop" : 1640699030432,
+        "duration" : 14383
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check if longer inputs to the filter header break the app",
+      "uid" : "950a1ae74329500c",
+      "parentUid" : "f3a96236245b58ac9835e61e31731f57",
+      "status" : "failed",
+      "time" : {
+        "start" : 1640699030501,
+        "stop" : 1640699067619,
+        "duration" : 37118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check if the 'Sell' field is cleared when entering a 'Buy' amount",
+      "uid" : "82f139b342a6e7e3",
+      "parentUid" : "f3a96236245b58ac9835e61e31731f57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699067623,
+        "stop" : 1640699075237,
+        "duration" : 7614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check if the 'Buy' field is cleared when entering a 'Sell' amount",
+      "uid" : "9daa3e0b8d46ac5b",
+      "parentUid" : "f3a96236245b58ac9835e61e31731f57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699075237,
+        "stop" : 1640699082743,
+        "duration" : 7506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check if the 'Sell' currency is updated when switching countries",
+      "uid" : "4e10aebd1d1b3475",
+      "parentUid" : "f3a96236245b58ac9835e61e31731f57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699082743,
+        "stop" : 1640699088508,
+        "duration" : 5765
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check if it is possible to add invalid parameters through URL",
+      "uid" : "cc984b9275aa826f",
+      "parentUid" : "f3a96236245b58ac9835e61e31731f57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699088508,
+        "stop" : 1640699091263,
+        "duration" : 2755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f3a96236245b58ac9835e61e31731f57"
+  }, {
+    "name" : "org.example.tests.InvalidInputCheckerTest",
+    "children" : [ {
+      "name" : "testInvalidInput[Check if invalid inputs are not allowed (using input [-150] for screen [CURRENCY_CALCULATOR])]",
+      "uid" : "f81ca80aafa2f74c",
+      "parentUid" : "8c33f7c6150ac2da03dde5f2f6463f51",
+      "status" : "failed",
+      "time" : {
+        "start" : 1640699093479,
+        "stop" : 1640699108427,
+        "duration" : 14948
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testInvalidInput[Check if invalid inputs are not allowed (using input [150L] for screen [CURRENCY_CALCULATOR])]",
+      "uid" : "94720be36fd461b4",
+      "parentUid" : "8c33f7c6150ac2da03dde5f2f6463f51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640699108427,
+        "stop" : 1640699122153,
+        "duration" : 13726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c33f7c6150ac2da03dde5f2f6463f51"
+  } ]
+}

@@ -1,0 +1,162 @@
+{
+  "uid" : "cc984b9275aa826f",
+  "name" : "Check if it is possible to add invalid parameters through URL",
+  "fullName" : "org.example.tests.CurrencyExchangeHeaderTest.checkIfItIsPossibleToAddBuyAndSellParametersThroughUrl",
+  "historyId" : "8736268c42e220815832532f5743cb05",
+  "time" : {
+    "start" : 1640699088508,
+    "stop" : 1640699091263,
+    "duration" : 2755
+  },
+  "description" : "Verify that an error is given if a user tries to add both a sell and buy parameters through the URL",
+  "descriptionHtml" : "<p>Verify that an error is given if a user tries to add both a sell and buy parameters through the URL</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify that an error is given if a user tries to add both a sell and buy parameters through the URL",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to 'Online Currency Exchange' page",
+      "time" : {
+        "start" : 1640699088508,
+        "stop" : 1640699088903,
+        "duration" : 395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Navigate to 'Currency exchange calculator' page, by adding both buy and sell parameters in the URL",
+      "time" : {
+        "start" : 1640699088903,
+        "stop" : 1640699088903,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Wait for the 'Exchange rate' table to be loaded",
+      "time" : {
+        "start" : 1640699088968,
+        "stop" : 1640699091166,
+        "duration" : 2198
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Scroll to the 'Exchange rate' table",
+        "time" : {
+          "start" : 1640699090978,
+          "stop" : 1640699091018,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Waiting at most [10] seconds for the exchange rate table to load",
+        "time" : {
+          "start" : 1640699091018,
+          "stop" : 1640699091018,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "timeoutInSeconds",
+        "value" : "10"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify that an error message is displayed",
+      "time" : {
+        "start" : 1640699091166,
+        "stop" : 1640699091166,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.tests.CurrencyExchangeHeaderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkIfItIsPossibleToAddBuyAndSellParametersThroughUrl"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.tests.CurrencyExchangeHeaderTest"
+  }, {
+    "name" : "host",
+    "value" : "MILOVL01"
+  }, {
+    "name" : "thread",
+    "value" : "20940@MILOVL01.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc984b9275aa826f.json",
+  "parameterValues" : [ ]
+}

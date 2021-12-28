@@ -1,0 +1,183 @@
+{
+  "uid" : "82f139b342a6e7e3",
+  "name" : "Check if the 'Sell' field is cleared when entering a 'Buy' amount",
+  "fullName" : "org.example.tests.CurrencyExchangeHeaderTest.testCheckSellFieldIsCleared",
+  "historyId" : "51e8c2b98da63ae93b06436aaa0aaafa",
+  "time" : {
+    "start" : 1640699067623,
+    "stop" : 1640699075237,
+    "duration" : 7614
+  },
+  "description" : "Verifies that any value given for the 'Sell' field is automatically cleared, when an input is made for the 'Buy' field",
+  "descriptionHtml" : "<p>Verifies that any value given for the 'Sell' field is automatically cleared, when an input is made for the 'Buy' field</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verifies that any value given for the 'Sell' field is automatically cleared, when an input is made for the 'Buy' field",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigate to 'Online Currency Exchange' page",
+      "time" : {
+        "start" : 1640699067623,
+        "stop" : 1640699068059,
+        "duration" : 436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Wait for the 'Exchange rate' table to be loaded",
+      "time" : {
+        "start" : 1640699068059,
+        "stop" : 1640699071906,
+        "duration" : 3847
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Scroll to the 'Exchange rate' table",
+        "time" : {
+          "start" : 1640699070078,
+          "stop" : 1640699070118,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Waiting at most [10] seconds for the exchange rate table to load",
+        "time" : {
+          "start" : 1640699070118,
+          "stop" : 1640699070118,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "timeoutInSeconds",
+        "value" : "10"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Set the value of the 'Sell' field to [123]",
+      "time" : {
+        "start" : 1640699071906,
+        "stop" : 1640699074064,
+        "duration" : 2158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "sellValue",
+        "value" : "123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Set the value of the 'Buy' field to [123]",
+      "time" : {
+        "start" : 1640699074064,
+        "stop" : 1640699075206,
+        "duration" : 1142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "buyValue",
+        "value" : "123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify that any input was removed from the Sell field",
+      "time" : {
+        "start" : 1640699075237,
+        "stop" : 1640699075237,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.tests.CurrencyExchangeHeaderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCheckSellFieldIsCleared"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.tests.CurrencyExchangeHeaderTest"
+  }, {
+    "name" : "host",
+    "value" : "MILOVL01"
+  }, {
+    "name" : "thread",
+    "value" : "20940@MILOVL01.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82f139b342a6e7e3.json",
+  "parameterValues" : [ ]
+}

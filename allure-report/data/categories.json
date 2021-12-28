@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Row for currency [HUF (Hungarian Forint)] did not have a loss indicator, even though the 'Paysera amount' (28,256.07) was larger than the 'bank amount' (26,988.13); ",
+      "children" : [ {
+        "name" : "Check if the loss indicator is shown when applicable",
+        "uid" : "ae88f51cdfb3ee90",
+        "parentUid" : "cd608e3492d83acb3798e489731e5745",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640699016049,
+          "stop" : 1640699030432,
+          "duration" : 14383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd608e3492d83acb3798e489731e5745"
+    }, {
+      "name" : "An unexpected 'Server error' popup was shown on screen",
+      "children" : [ {
+        "name" : "Check if longer inputs to the filter header break the app",
+        "uid" : "950a1ae74329500c",
+        "parentUid" : "a1c433e528b385411a995e564abe8477",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640699030501,
+          "stop" : 1640699067619,
+          "duration" : 37118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1c433e528b385411a995e564abe8477"
+    }, {
+      "name" : "A popup indicating that the given input was invalid was not shown when it should have been",
+      "children" : [ {
+        "name" : "testInvalidInput[Check if invalid inputs are not allowed (using input [-150] for screen [CURRENCY_CALCULATOR])]",
+        "uid" : "f81ca80aafa2f74c",
+        "parentUid" : "64a1ab6a995068070c2eada83c416050",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640699093479,
+          "stop" : 1640699108427,
+          "duration" : 14948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64a1ab6a995068070c2eada83c416050"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

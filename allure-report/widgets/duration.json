@@ -1,0 +1,81 @@
+[ {
+  "uid" : "4e10aebd1d1b3475",
+  "name" : "Check if the 'Sell' currency is updated when switching countries",
+  "time" : {
+    "start" : 1640699082743,
+    "stop" : 1640699088508,
+    "duration" : 5765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94720be36fd461b4",
+  "name" : "testInvalidInput[Check if invalid inputs are not allowed (using input [150L] for screen [CURRENCY_CALCULATOR])]",
+  "time" : {
+    "start" : 1640699108427,
+    "stop" : 1640699122153,
+    "duration" : 13726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae88f51cdfb3ee90",
+  "name" : "Check if the loss indicator is shown when applicable",
+  "time" : {
+    "start" : 1640699016049,
+    "stop" : 1640699030432,
+    "duration" : 14383
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "950a1ae74329500c",
+  "name" : "Check if longer inputs to the filter header break the app",
+  "time" : {
+    "start" : 1640699030501,
+    "stop" : 1640699067619,
+    "duration" : 37118
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9daa3e0b8d46ac5b",
+  "name" : "Check if the 'Buy' field is cleared when entering a 'Sell' amount",
+  "time" : {
+    "start" : 1640699075237,
+    "stop" : 1640699082743,
+    "duration" : 7506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82f139b342a6e7e3",
+  "name" : "Check if the 'Sell' field is cleared when entering a 'Buy' amount",
+  "time" : {
+    "start" : 1640699067623,
+    "stop" : 1640699075237,
+    "duration" : 7614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f81ca80aafa2f74c",
+  "name" : "testInvalidInput[Check if invalid inputs are not allowed (using input [-150] for screen [CURRENCY_CALCULATOR])]",
+  "time" : {
+    "start" : 1640699093479,
+    "stop" : 1640699108427,
+    "duration" : 14948
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc984b9275aa826f",
+  "name" : "Check if it is possible to add invalid parameters through URL",
+  "time" : {
+    "start" : 1640699088508,
+    "stop" : 1640699091263,
+    "duration" : 2755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
